@@ -1,0 +1,13 @@
+#ifndef {{MACRO_GUARD}}
+# define {{MACRO_GUARD}}
+
+class {{CLASS}}
+{
+	public:
+		{{CLASS}} ({{CURSOR}});
+		virtual ~{{CLASS}} ();
+	private:
+		
+};
+
+#endif

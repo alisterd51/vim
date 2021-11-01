@@ -1,0 +1,10 @@
+#include "{{FILE}}.hpp"
+
+{{CLASS}}::{{CLASS}}()
+{
+	{{CURSOR}}
+}
+
+{{CLASS}}::~{{CLASS}}()
+{
+}
