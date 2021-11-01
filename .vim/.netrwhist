@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/anclarma/Documents/piscine_cpp/cpp00/ex01'
+let g:netrw_dirhist_8='/Users/anclarma/Documents/piscine_cpp/cpp00'
+let g:netrw_dirhist_7='/Users/anclarma/Documents/piscine_cpp/cpp00/ex00'
+let g:netrw_dirhist_6='/Users/anclarma/Documents/piscine_cpp/cpp01'
+let g:netrw_dirhist_5='/Users/anclarma/Documents/minishell/.github/workflows'
+let g:netrw_dirhist_4='/Users/anclarma/Documents/minishell/test'
+let g:netrw_dirhist_3='/Users/anclarma/discovery_piscine/cell00/ex05'
+let g:netrw_dirhist_2='/Users/anclarma/Documents/minishell/includes'
+let g:netrw_dirhist_1='/Users/anclarma/Documents/rush02/ex00'
+let g:netrw_dirhist_0='/Users/anclarma/Documents/rush02/ex00/includes'
