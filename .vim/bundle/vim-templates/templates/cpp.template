@@ -1,10 +1,24 @@
 #include "{{FILE}}.hpp"
 
-{{CLASS}}::{{CLASS}}()
+{{CLASS}}::{{CLASS}}(void)
 {
-	{{CURSOR}}
+	return ;
 }
 
-{{CLASS}}::~{{CLASS}}()
+{{CLASS}}::{{CLASS}}({{CLASS}} const &src)
 {
+	*this = src;
+	return ;
+}
+
+{{CLASS}}::~{{CLASS}}(void)
+{
+	return ;
+}
+
+{{CLASS}}	&{{CLASS}}::operator=({{CLASS}} const &rhs)
+{
+//	if (this != &rhs)
+//		this-> = rhs.get();
+	return (*this);
 }

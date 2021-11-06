@@ -1,13 +1,18 @@
 #ifndef {{MACRO_GUARD}}
 # define {{MACRO_GUARD}}
 
-class {{CLASS}}
+class	{{CLASS}}
 {
 	public:
-		{{CLASS}} ({{CURSOR}});
-		virtual ~{{CLASS}} ();
+		{{CLASS}}(void);
+		{{CLASS}}({{CLASS}} const &src);
+		virtual	~{{CLASS}}(void);
+
+		{{CLASS}}	&operator=({{CLASS}} const &rhs);
+	protected:
+
 	private:
-		
+		{{CURSOR}}
 };
 
 #endif
