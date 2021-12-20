@@ -21,6 +21,20 @@ CLIBS		=
 
 all:		$(NAME)
 
+debug:		CFLAGS += -fsanitize=address	\
+				-fsanitize=undefined		\
+				-fsanitize=leak				\
+				-g3
+debug:		CXXFLAGS += -fsanitize=address	\
+				-fsanitize=undefined		\
+				-fsanitize=leak				\
+				-g3
+debug:		LFLAGS += -fsanitize=address	\
+				-fsanitize=undefined		\
+				-fsanitize=leak				\
+				-g3
+debug:		$(NAME)
+
 check:		all
 
 $(O_DIR)/%.o: $(C_DIR)/%.c
